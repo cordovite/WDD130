@@ -63,11 +63,13 @@ body {
     margin-top: 100px;
     grid-column: 2/3;
     grid-row: 1/2;
+    font-family: 'rockwell';
 }
 
 #hip-msg h1 {
     text-align: center;
     color: white;
+
 }
 
 #hip-msg h4 {
@@ -108,6 +110,16 @@ main section {
     transition: transform .5s;
 
     width: 100%;
+}
+
+.engine, .oil {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: aqua;
 }
 
 #background {
